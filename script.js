@@ -53,7 +53,7 @@ promise1.then((res)=>{
 	    op=op+10
 		console.log(op)
 		setTimeout(()=>{
-			output.innerText=`Result: ${op}`
+			output.innerText=`Final Result: ${op}`
 			resolve(op)
 		},1000);
 	})
